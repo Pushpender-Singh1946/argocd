@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:latest
+        image: sonarqube
         ports:
-        - containerPort: 80
+        - containerPort: 9000
